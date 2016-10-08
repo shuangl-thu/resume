@@ -11,78 +11,90 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{李爽}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{seulishuang@163.com} \textperiodcentered\ 
+  \phone{(+86) 188-0019-9283} \textperiodcentered 
+%  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+}
  
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\datedsubsection{\textbf{清华大学} \ \textbf{在读博士研究生} \ 计算机科学与技术}{2013年8月 -- 至今}
+%\textit{在读博士研究生}\ 计算机科学与技术, 预计 2018 年 6 月毕业\\
+\textit{研究方向}\ 个性化搜索及推荐技术研究
+\datedsubsection{\textbf{东南大学} \ \textbf{学士} \ 软件工程}{2008年8月 -- 2013年6月}
+%\textit{学士}\ 软件工程
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
-
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{深度学习经历: 基于物品的图片和文本描述提高用户对物品的评分预测}}{2017年3月 -- 至今}
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+	\item 从Imdb网站抓取物品(电影)的简介和海报
+	\item 构建CNN和矩阵分解的融合并利用现有词向量实现基于文本的预测模型， 融合预训练VGG16模型的卷及层和全连接网络实现基于图片的评分预测
+	\item 在Keras和Pytorch平台上完成基于Movielens和Netflixs数据集的实验评估
+\end{itemize}
+\end{onehalfspacing}
+\datedsubsection{\textbf{清华大学-思科联合项目： 基于位置和HTTP数据的挖掘和应用}}{2015年8月 -- 2016年3月}
+%\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\begin{onehalfspacing}
+%xxxx
+\begin{itemize}
+  \item 通过HTTP数据挖掘用户偏好
+  \item 通过室内定位数据检测办公室活动(会议开始时间, 结束时间, 参与人数)
+  \item 通过MAC地址识别用户设备类型
+%  \item 使用技术: python, 网页抓取, 正则表达式, 可视化
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
+\datedsubsection{\textbf{博士生实践： 甘孜州手机旅游APP公共服务平台}}{2015年6月 -- 2015年8月}
 \begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+为游客及管理部门创造一个信息交互平台，提供旅游攻略分享、旅游资讯发布、门票酒店预订等功能
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+	\item 负责ios端功能实现
+%	\item 使用技术： Objective C, 数据库
+\end{itemize}
+\end{onehalfspacing}
+\datedsubsection{\textbf{软件创新大赛： 智能交通服务平台}}{2010 年9月 -- 2010 年12月}
+%\role{\LaTeX, Python}{个人项目}
+\begin{onehalfspacing}
+以低成本、易部署的物联网技术方式实现车位信息导航、智能的士导航、路况提示等示范功能
+\begin{itemize}
+  \item 负责乘客手机终端  通过GPS模块和Google地图API采集用户位置信息并与中心服务器交互
+%  \item 编程语言: Java
 \end{itemize}
 \end{onehalfspacing}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+\section{\faBook\ 论文发表}
+\begin{itemize}
+\item Personalized Content Recommendation Based on Field Authorities in Transparent Computing, In 2017IJAHUC
+\item Exploring and Undersanding Web Search Behavior with Human Activities, In 2017UIC
+\item Learning to Diversify Recommendations Based on Matrix Factorization, In 2017CyberSciTech
+\end{itemize}
+%\datedsubsection{Personalized Content Recommendation Based on Field Authorities in Transparent Computing}{2017IJAHUC}
+%\datedsubsection{Exploring and Undersanding Web Search Behavior with Human Activities}{2017UIC}
 %An xxx optimized for xxx\cite{verma2015large}
+%\datedsubsection{Learning to Diversify Recommendations Based on Matrix Factorization}{2018MMM在投}
+
+\section{\faUsers\ 实习经历}
+\datedsubsection{\textbf{IBM} (上海) \ eclipse插件开发}{2012年6月 -- 2012年12月}
 %\begin{itemize}
-%  \item main contribution
+%	\item 扩展用于可视化分析大型主机Zos系统性能的工具VPA的功能
+%	\item 涉及SWT、XSD、HSQL等技术, 完成设计、编码、测试等工作及相应的文档编写
 %\end{itemize}
 
-\section{\faCogs\ IT 技能}
+\section{\faCogs\ 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+  \item 编程语言: Python > C++ > Java > C
+  \item 平台: Linux, Hadoop, map-reduce \ 深度学习平台: Keras, Pytorch
+%  \item 语言: 英语 - 熟练(六级)
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
-
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
-\end{itemize}
-
+\datedline{清华大学 \ 清华之友-搜狐研发奖学金}{2017}
+\datedline{清华大学 \ 综合优秀奖学金}{2016}
+\datedline{东南大学 \ 国家奖学金}{2012}
 %% Reference
 %\newpage
 %\bibliographystyle{IEEETran}
