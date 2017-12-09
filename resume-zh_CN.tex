@@ -30,8 +30,8 @@
 \datedsubsection{\textbf{深度学习经历: 基于物品的图片和文本描述提高用户对物品的评分预测}}{2017年3月 -- 至今}
 \begin{onehalfspacing}
 \begin{itemize}
-	\item 从Imdb网站抓取物品(电影)的简介和海报
-	\item 构建CNN和矩阵分解的融合并利用现有词向量实现基于文本的预测模型， 融合预训练VGG16模型的卷及层和全连接网络实现基于图片的评分预测
+	\item 从Imdb网站抓取物品(电影)的描述文本信息和海报
+	\item 融合attention-based的附属文本信息， 及通过预训练的VGG16模型提取的图片特征，增强现有的协同过滤(矩阵分解)
 	\item 在Keras和Pytorch平台上完成基于Movielens和Netflixs数据集的实验评估
 \end{itemize}
 \end{onehalfspacing}
@@ -40,7 +40,7 @@
 \begin{onehalfspacing}
 %xxxx
 \begin{itemize}
-  \item 通过HTTP数据挖掘用户偏好
+  \item 通过HTTP数据挖掘用户搜索偏好与用户活动背景，设备类型等因素的关联
   \item 通过室内定位数据检测办公室活动(会议开始时间, 结束时间, 参与人数)
   \item 通过MAC地址识别用户设备类型
 %  \item 使用技术: python, 网页抓取, 正则表达式, 可视化
