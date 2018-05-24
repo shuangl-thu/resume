@@ -3,6 +3,9 @@
 % !Mode:: "TeX:UTF-8"
 
 \documentclass{resume}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{multirow}
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
@@ -27,11 +30,11 @@
 %\textit{学士}\ 软件工程
 
 \section{\faUsers\ 项目经历}
-\datedsubsection{\textbf{深度强化学习: 基于用户向量、物品向量、及物品类目信息强化学习多样化推荐}}{\\ \hfill 2018年2月 -- 至今}
+\datedsubsection{\textbf{深度强化学习: 面向多样化推荐评估指标的强化学习算法的优化与改进}}{\\ \hfill 2018年1月 -- 至今 }
 \begin{onehalfspacing}
 	\begin{itemize}
 		\item 使用LSTM建模随已推荐物品列表变化的用户兴趣，基于实时兴趣指导下一步推荐物品的选择
-		\item 基于最先进的A3C算法强化学习能逐步提高推荐结果多样化性的模型参数
+		\item 结合多样化推荐问题特点和Bellman期望公式优化现有Actor-Ctitic算法，增加训练样本使用效率，提高多样化评估指标水平
 		\item 基于MovieLens和Pytorch的实验设计与实现，完成与不同学习方法、不同模型的对比分析
 	\end{itemize}
 \end{onehalfspacing}
@@ -75,6 +78,7 @@
 
 \section{\faBook\ 论文发表}
 \begin{itemize}
+\item Sample-Efficient Actor-Critic Reinforcement Learning for Recommendation Diversification. 在投
 \item Deep Collaborative Filtering Incorporating Auxiliary Multi-Media Information. 在投
 \item Exploring and Undersanding Web Search Behavior with Human Activities, In 2017UIC
 \item Learning to Diversify Recommendations Based on Matrix Factorization, In 2017CyberSciTech
