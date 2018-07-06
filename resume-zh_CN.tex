@@ -25,27 +25,39 @@
 \section{\faGraduationCap\  教育背景}
 \datedsubsection{\textbf{清华大学} \ \textbf{在读博士研究生} \ 计算机科学与技术}{2013年8月 -- 至今}
 %\textit{在读博士研究生}\ 计算机科学与技术, 预计 2018 年 6 月毕业\\
-\textit{研究方向}\ 个性化搜索与推荐技术
-\datedsubsection{\textbf{东南大学} \ \textbf{学士} \ 软件工程}{2008年8月 -- 2013年6月}
-%\textit{学士}\ 软件工程
+\textit{研究方向：}\ 推荐算法，强化学习，机器学习
+\datedsubsection{\textbf{东南大学} \ \textbf{学士} \ 软件工程~绩点排名: 4/135}{2008年8月 -- 2013年6月}
+%\textit{学士}\ 软件工程  \绩点排名：4/135
 
-\section{\faUsers\ 项目经历}
-\datedsubsection{\textbf{深度强化学习: 面向多样化推荐评估指标的强化学习算法的优化与改进}}{\\ \hfill 2018年1月 -- 至今 }
+\section{\faUsers\ 科研经历}
+\datedsubsection{\textbf{基于强化学习的方法进行多样化学习排序}}{2018年1月 -- 至今 }
+\textbf{~~~~~~~Recommendation Diversification，LSTM，RL，Actor-Critic，Pytorch}
 \begin{onehalfspacing}
 	\begin{itemize}
-		\item 使用LSTM建模随已推荐物品列表变化的用户兴趣，基于实时兴趣指导下一步推荐物品的选择
-		\item 结合多样化推荐问题特点和Bellman期望公式优化现有Actor-Ctitic算法，增加训练样本使用效率，提高多样化评估指标水平
-		\item 基于MovieLens和Pytorch的实验设计与实现，完成与不同学习方法、不同模型的对比分析
+		\item 提出一种新的Actor-Critic强化学习算法来进行推荐列表的多样化学习，样本效率和稳定性得到显著提升.
+		\item 使用LSTM模型来建模用户状态的变化，用以考虑同一个推荐列表中不同物品的相互关系.
+		\item 基于MovieLens和Pytorch进行实验设计，与不同的监督学习和强化学习算法进行对比.
 	\end{itemize}
 \end{onehalfspacing}
-\datedsubsection{\textbf{深度学习: 基于物品的图片和文本描述提高评分预测准确度}}{2017年3月 -- 2018年1月}
+\datedsubsection{\textbf{基于物品的图片和文本描述信息提高评分预测准确度}}{2017年3月 -- 2018年1月}
+\textbf{~~~~~~~Matrix Factorization，DNN，CNN，Attention，Keras}
 \begin{onehalfspacing}
 \begin{itemize}
-	\item 从Imdb网站抓取物品(电影)的描述文本信息和海报
-	\item 融合attention-based的离散型文本标签的隐向量丰富物品刻画， 使用CNN提取的图片特征限制向量空间，进而提高协同过滤算法的准确度
-	\item 在Keras平台上完成基于Movielens数据集的实验评估
+	\item 结合传统的矩阵分解方法和最新提出的深度学习算法，同时融入文本和图像信息来提高评分预估的准确性.
+	\item 采用Attention机制自适应加权不同离散文本标签的Embedding向量，采用CNN提取图片的连续压缩特征.
+	\item 基于Movielen数据集和Keras平台完成不同分解算法的对比试验.
 \end{itemize}
 \end{onehalfspacing}
+\datedsubsection{\textbf{List-Wise的多样化学习排序研究}}{2016年12月 -- 2017年3月}
+\textbf{~~~~~~~Learning to Rank，Matrix Factorization，List-Wise，Python}
+\begin{onehalfspacing}
+	\begin{itemize}
+		\item 采用List-Wise的Learning to Rank方法学习多样化推荐排序算.
+		\item 直接对评分矩阵进行分解，End-to-End的优化最终的多样化排序列表.
+	\end{itemize}
+\end{onehalfspacing}
+
+\section{\faUsers\ 项目经历}
 \datedsubsection{\textbf{清华大学-思科联合项目： 基于位置和HTTP数据的挖掘和应用}}{2015年8月 -- 2016年3月}
 %\role{Golang, Linux}{个人项目，和富帅糕合作开发}
 \begin{onehalfspacing}
@@ -76,17 +88,6 @@
 \end{itemize}
 \end{onehalfspacing}
 
-\section{\faBook\ 论文发表}
-\begin{itemize}
-\item Sample-Efficient Actor-Critic Reinforcement Learning for Recommendation Diversification. 在投
-\item Deep Collaborative Filtering Incorporating Auxiliary Multi-Media Information, In 2018UIC
-\item Exploring and Undersanding Web Search Behavior with Human Activities, In 2017UIC
-\item Learning to Diversify Recommendations Based on Matrix Factorization, In 2017CyberSciTech
-\end{itemize}
-%\datedsubsection{Personalized Content Recommendation Based on Field Authorities in Transparent Computing}{2017IJAHUC}
-%\datedsubsection{Exploring and Undersanding Web Search Behavior with Human Activities}{2017UIC}
-%An xxx optimized for xxx\cite{verma2015large}
-%\datedsubsection{Learning to Diversify Recommendations Based on Matrix Factorization}{2018MMM在投}
 
 \section{\faUsers\ 实习经历}
 \datedsubsection{\textbf{IBM} (上海) \ eclipse插件开发}{2012年6月 -- 2012年12月}
@@ -95,17 +96,44 @@
 %	\item 涉及SWT、XSD、HSQL等技术, 完成设计、编码、测试等工作及相应的文档编写
 %\end{itemize}
 
-\section{\faCogs\ 其他}
+\section{\faCogs\ 专业技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
   \item 编程语言: Python > C++ > Java > C
-  \item 平台: 熟悉Keras、Pytorch，熟练Linux、Bash Shell，了解Hadoop、map-reduce
-  \item 获奖: 清华之友-搜狐研发奖学金(2017), 清华大学综合优秀奖学金(2016), 东南大学国家奖学金（2012）
-%  \item 语言: 英语 - 熟练(六级)
+  \item 熟练Linux、Shell、Vim、Git、Pandas、Matplotlib
+  \item 了解Hadoop、MapReduce
+  \item 深度学习框架: 熟悉Keras、Pytorch，Numpy
+  \item 熟悉深度学习，强化学习等领域算法
 \end{itemize}
+
+\section{\faCogs\ 荣誉奖项}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+	\item 清华之友-搜狐研发奖学金(2017)
+	\item 清华大学综合优秀奖学金(2016) 
+	\item 东南大学国家奖学金（2012）
+	\item 东南大学金蝶奖学金（2011）
+	\item 国际大学生数学建模竞赛 二等奖(2012)
+	\item 国家大学生数学建模竞赛 江苏省二等奖(2011)
+	\item 第三届全国大学生软件创新大赛一等奖(2010)
+
+\end{itemize}
+
+\section{\faBook\ 论文发表}
+\begin{itemize}
+	\item Sample-Efficient Actor-Critic Reinforcement Learning for Recommendation Diversification. CIKM'18在投
+	\item Deep Collaborative Filtering Incorporating Auxiliary Multi-Media Information, In 2018UIC
+	\item Exploring and Undersanding Web Search Behavior with Human Activities, In 2017UIC
+	\item Learning to Diversify Recommendations Based on Matrix Factorization, In 2017CyberSciTech
+\end{itemize}
+%\datedsubsection{Personalized Content Recommendation Based on Field Authorities in Transparent Computing}{2017IJAHUC}
+%\datedsubsection{Exploring and Undersanding Web Search Behavior with Human Activities}{2017UIC}
+%An xxx optimized for xxx\cite{verma2015large}
+%\datedsubsection{Learning to Diversify Recommendations Based on Matrix Factorization}{2018MMM在投}
 
 %% Reference
 %\newpage
 %\bibliographystyle{IEEETran}
 %\bibliography{mycite}
 \end{document}
+
